@@ -1,1 +1,1 @@
-# Image-Edge-Detection-Program
+# Image Converter
