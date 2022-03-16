@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar ul {
+    display: flex;
+    padding-top: 1em;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nav-menu-hamburger {
+    text-align: center;
+    justify-content: center;
+}
+.nav-bar {
+    background-color: #19181A;
+    padding-bottom: 1.5em;
+    align-items: center;
+}
+.nav-bar a {
+    color: white;
+    margin-top: 1em;
+    display: block;
+    padding: 0 1em;
+}
+.nav-bar a:hover {
+    color: rgb(202, 202, 202);
+}
+.company-name-nav-bar {
+    padding-top: 1em;
+    font-weight: bold;
+    margin-left: .8em;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2em;
+    position: absolute;
+    left: 0;
+}
+.nav-bar-name-text {
+    color: white;
+    padding-top: 1em;
+}
+.nav-bar-name-text:hover {
+    color: rgb(156, 156, 156);
+}
+.hero {
+    padding-top: 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3em;
+    background-color: white;
+}
+.hero-title { 
+    padding-bottom: .75em;
+    font-size: 3.5em;
+}
+.hero-text {
+    font-size: 1.5em;
+}
+
+.file_upload-area {
+    display: flex;
+}
+.file_upload {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+.label_file_upload {
+    cursor: pointer;
+    color: white;
+    background-color: #b679f2;
+    padding: 1em;
+    border-radius: 1em;
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+.save-button{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    padding-right: 4.4em;
+    padding-left: 4.4em;
+    border-radius: 1em;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: none;
+    margin-bottom: 8em;
+    font-size: 1em;
+}
+.canvas-area {
+    background-color: black;
+    width: min-content;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 1em;
+    display: none;
+}
+.base-canvas-area {
+    background-color: grey;
+    width: min-content;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 1em;
+    display: none;
+}
+canvas {
+    margin: auto;
+    display: block;
+}
+.current-mode {
+    background-color: #2fa750;
+    border-radius: 1em;
+    
+}
+
+@media only screen and (max-width: 700px){
+    .company-name-nav-bar {
+        opacity: 0;
+    }
+}

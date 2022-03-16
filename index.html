@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;900&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Image Edge Detection</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <header class="header">
+        <a class="company-name-nav-bar" href="/index.html"><p class="nav-bar-name-text">Image Converter</p></a>
+        <div class="nav-menu-hamburger">
+            <ul>   
+                <li><a class="current-mode original-mode">Original</a></li> 
+                <li><a class="invert-mode">Invert</a></li>
+                <li><a class="greyscale-mode">Grey Scale</a></li>
+            </ul>
+        </div>
+        </header>
+    </div>
+    <div class="hero">
+        <h1 class="hero-title">Image Converter</h1>
+        <p class="hero-text">Upload an image from your computer and transform it</p>
+        <div class="file-upload-area">
+            <label class="label_file_upload" for="file_upload">Upload Image</label>
+            <input class="file_upload" type="file" id="file_upload">
+            <button class="save-button">Save Image</button>
+        </div>
+    </div>
+
+    
+    <div class="base-canvas-area">
+        <canvas class="base-canvas"></canvas>
+    </div>
+    <div class="canvas-area">
+        <canvas class="converted-canvas"></canvas>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
